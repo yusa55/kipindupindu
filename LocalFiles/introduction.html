@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html >
+ <head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function resizeText(multiplier) {
+  if (document.getElementById("big").style.fontSize == "") {
+    document.getElementById("big").style.fontSize = "1.0em";
+  }
+  document.getElementById("big").style.fontSize = parseFloat(document.getElementById("big").style.fontSize) + (multiplier * 0.2) + "em";
+}
+</script>
+ </head> 
+ <body> 
+ <div class="all">
+ <div class="logo">
+
+<img src="images/header.png" style="width:100%; position:; height:100px;"></img>
+
+</div>
+
+ <div style='margin-top:10px;'><b>MAANA HALISI YA <br>KIPINDUPINDU:</b></div>
+ <div class="zoom" >
+<img src="images/zoomout.jpg" width="40" height="40" align="right" onClick="resizeText(-1)"></img>
+<img src="images/zoomin.jpg" width="40" height="40" align="right" onClick="resizeText(1)"></img>
+
+</div>
+ </div>
+ <div id="loginScreen" align="center"> 
+	<div class="panel">
+		<table border="0">
+		<p>
+			<tr>
+			<td> 
+			 <a href="index.html" id="login_pop">1.Nyumbani</a>
+           </td>
+			<td>
+			<a href="introduction.html" id="login_pop">2.Utangulizi</a>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<a href="transmission.html" id="login_pop">3.Maambukizi</a>
+            
+			</td>
+			<td>
+			<a href="prevention.html" id="login_pop">4.Kinga</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="effects.html" id="login_pop">5.Hasara</a>
+            
+			</td>
+			<td>
+			<a href="precautions.html" id="login_pop">6.Tahadhari</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="symptoms.html" id="login_pop">7.Dalili</a>
+            
+			</td>
+			<td>
+			<a href="firstaid.html" id="login_pop">8.Huduma</a>
+			</td>
+			
+			</tr>
+			
+			
+		</table>
+			
+                
+				
+				
+				
+				
+               
+     </div>
+ <a href="#" class="cancel">&times;</a> </div> 
+ <div id="cover" > </div>
+ 
+ <div class="big" id="big"><p>
+ <font size="+3">P</font>amoja na kuwa neno hili sio geni miongoni mwa wengi lakini kwa lengo la kukumbushana na kupata 
+ faida zaidi niseme kwamba kipindupindu ni ugonjwa wa kuharisha unaokuja ghafla mara tu mtu anapopata maambukizi. 
+ <p>
+ Na maambukizi ya kipindupindu huwa yanapatika kupitia mdomoni pale mtu anapokula kinyesi cha mtu mwenye ugonjwa huu aidha 
+ kwa kupitia kwenye maji au chakula. Kitaalam magonjwa yanayoambukizwa kwa namna hii yanaitwa <b style="color:red;">"feacal oral disease".</b>
+ <p>
+ Ugonjwa huu umekuwa ukiathiri nchi tofauti ulimwenguni, kwani takwimu zinaonesha kwamba kati ya watu milioni 3 hadi 5 huugua 
+ ugonjwa huu kila mwaka duniani na zaidi ya watu 100,000 hufariki dunia.
+ <p>
+ Kipindupindu husababishwa na vimelea aina ya <b style="color:red;">Vibrio cholerae</b> wanaosababisha kuhara majimaji yenye rangi kama maji ya mchele
+ <p>
+ <b><u>Tanbihi:</u></b><br>
+ Vimelea hivi vya kipindupindu haviwezi kuonekana kwa macho mpka kwa kupitia kifaa maalum cha kutizamia (Darubini)
+ <img src="images/c.jpg" style="width:100%; position:; height:320px;"></img><br>
+ Mtu Huweza kupata kipindupindu kwa kutegemeana na wingi wa vimelea mtu alivyomeza, inaweza kuchukua masaa  mpaka siku tatu hadi dalili kujitokeza.
+
+ </div>
+ <div class="footer">
+  <a href="#loginScreen" align="center" class="button">Yaliyomo</a>
+  <a href="#" align="center" class="rudi" >Juu</a>
+
+ </div>
+ </body>
+ </html>

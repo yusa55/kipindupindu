@@ -1,0 +1,86 @@
+rebuild-needed = false
+variant = Android/Android Release 
+success = true
+timestamp = 1463719170980
+output-main = D:\\\\AL-AMOUDY\\\\work\\ space\\\\Kipindupindu\\\\Output\\\\Release\\\\Android\\\\Android\\\\package\\\\Kipindupindu.apk
+
+[files]
+LocalFiles/images/6.png = 1462207006510
+LocalFiles/index1.html = 1463390307059
+LocalFiles/images/j.jpg = 1462177998398
+LocalFiles/images/amb.jpg = 1462956440861
+LocalFiles/images/kituo.jpg = 1463718120729
+LocalFiles/images/fti.jpg = 1460556509290
+LocalFiles/images/103.png = 1462206119718
+LocalFiles/images/10.png = 1462207120876
+LocalFiles/images/d.jpg = 1462176151748
+LocalFiles/symptoms.html = 1462904280835
+LocalFiles/images/sd.jpg = 1462176784340
+LocalFiles/images/pi.jpg = 1462177059467
+LocalFiles/images/afraid.jpg = 1462953675847
+LocalFiles/images/dead.jpg = 1462954588955
+LocalFiles/style.css = 1463410756689
+LocalFiles/index.html = 1463411326750
+LocalFiles/prevention.html = 1462904273869
+LocalFiles/images/vcb.jpg = 1462178596322
+.settings/org.eclipse.wst.jsdt.ui.superType.container = 1462984563045
+LocalFiles/firstaid.html = 1463718871155
+LocalFiles/precautions.html = 1463718664830
+Resources/Resources.lst = 1462984562920
+LocalFiles/images/zoomin.jpg = 1453890690965
+LocalFiles/images/4.png = 1462207094696
+LocalFiles/images/water.jpg = 1462952266994
+.project = 1462984563030
+LocalFiles/images/hosp.jpg = 1462956807046
+LocalFiles/images/header.png = 1462825338000
+LocalFiles/images/down.jpg = 1462955185218
+Resources/beep.wav = 1462984562936
+.settings/org.eclipse.core.resources.prefs = 1462984562748
+LocalFiles/transmission.html = 1462952418640
+LocalFiles/images/io.jpg = 1462177462844
+LocalFiles/js/wormhole.js = 1463385401227
+LocalFiles/images/zoomout.jpg = 1453890785231
+LocalFiles/images/55.png = 1462206068860
+LocalFiles/effects.html = 1462957965513
+.cproject = 1462984562748
+LocalFiles/images/dafu.jpg = 1462956745474
+LocalFiles/images/splash.png = 1462825174000
+.mosyncproject = 1462985391754
+LocalFiles/images/c.jpg = 1461915543887
+.mosyncproject.local = 1462985391754
+LocalFiles/images/ch.jpg = 1461929198000
+LocalFiles/images/app.jpg = 1453451031060
+LocalFiles/images/b.jpg = 1462178739947
+Resources/LocalFiles.bin = 1463719172699
+LocalFiles/introduction.html = 1462904252275
+LocalFiles/images/anim.gif = 1462737826000
+LocalFiles/images/ss.jpg = 1462176623839
+main.cpp = 1462984562936
+LocalFiles/images/gmail.jpg = 1460556728864
+.settings/org.eclipse.wst.jsdt.ui.superType.name = 1462984563045
+.build = 1462984562952
+
+[dependencies]
+/Kipindupindu/main.cpp = /Kipindupindu/Output/Release/Android/Android/main.s
+/Kipindupindu/Output/Release/Android/Android/resources = /Kipindupindu/AL-AMOUDY/work__&NBSP;__space/Kipindupindu/Resources/beep.wav, /Kipindupindu/AL-AMOUDY/work__&NBSP;__space/Kipindupindu/Resources/LocalFiles.bin
+/Kipindupindu/Output/Release/Android/Android/main.s = /Kipindupindu/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapSensors.h, /Kipindupindu/MoSync/include/MAUtil/HashMap.h, /Kipindupindu/MoSync/include/Wormhole/MessageStream.h, /Kipindupindu/MoSync/include/mactype.h, /Kipindupindu/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapCamera.h, /Kipindupindu/MoSync/include/Wormhole/Libs/Notification/PushNotificationManager.h, /Kipindupindu/MoSync/include/conprint.h, /Kipindupindu/MoSync/include/Wormhole/FileUtil.h, /Kipindupindu/MoSync/include/limits.h, /Kipindupindu/MoSync/include/maarg.h, /Kipindupindu/MoSync/include/NativeUI/Screen.h, /Kipindupindu/MoSync/include/MAUtil/HashMap_impl.h, /Kipindupindu/MoSync/include/MAUtil/Dictionary.h, /Kipindupindu/MoSync/include/MAUtil/Moblet.h, /Kipindupindu/MoSync/include/maheap.h, /Kipindupindu/MoSync/include/Notification/PushNotificationListener.h, /Kipindupindu/MoSync/include/Wormhole/Libs/Notification/TCPConnection.h, /Kipindupindu/MoSync/include/MAUtil/collection_common.h, /Kipindupindu/MoSync/include/maassert.h, /Kipindupindu/MoSync/include/maapi.h, /Kipindupindu/MoSync/include/MAUtil/Vector.h, /Kipindupindu/MoSync/include/IX_WIDGET.h, /Kipindupindu/MoSync/include/Wormhole/Libs/JSNativeUI/NativeUIMessageHandler.h, /Kipindupindu/MoSync/include/MAUtil/Downloader.h, /Kipindupindu/MoSync/include/kazlib/dict.h, /Kipindupindu/MoSync/include/Wormhole/Libs/W3C/SensorManager.h, /Kipindupindu/Output/Release/Android/Android/MAHeaders.h, /Kipindupindu/main.cpp, /Kipindupindu/MoSync/include/Wormhole/FunTable.h, /Kipindupindu/MoSync/include/MAUtil/HashDict_impl.h, /Kipindupindu/MoSync/include/Wormhole/Libs/JSONMessage.h, /Kipindupindu/MoSync/include/MAUtil/Dictionary_impl.h, /Kipindupindu/MoSync/include/mastring.h, /Kipindupindu/MoSync/include/Wormhole/CustomMoblet.h, /Kipindupindu/MoSync/include/kazlib/hash.h, /Kipindupindu/MoSync/include/yajl/YAJLDom.h, /Kipindupindu/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapFile.h, /Kipindupindu/MoSync/include/MAUtil/ListenerSet.h, /Kipindupindu/MoSync/include/Wormhole/MessageStreamJSON.h, /Kipindupindu/MoSync/include/MAUtil/Environment.h, /Kipindupindu/MoSync/include/NativeUI/WebView.h, /Kipindupindu/MoSync/include/MAUtil/util.h, /Kipindupindu/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapMessageHandler.h, /Kipindupindu/MoSync/include/NativeUI/WidgetUtil.h, /Kipindupindu/MoSync/include/Wormhole/WebAppMoblet.h, /Kipindupindu/MoSync/include/Wormhole/Encoder.h, /Kipindupindu/MoSync/include/Wormhole/Libs/JSNativeUI/ResourceMessageHandler.h, /Kipindupindu/MoSync/include/MAUtil/Map.h, /Kipindupindu/MoSync/include/MAUtil/String.h, /Kipindupindu/MoSync/include/Wormhole/Libs/Orientation/OrientationMessageHandler.h, /Kipindupindu/MoSync/include/maapi_defs.h, /Kipindupindu/MoSync/include/MAUtil/RefCounted.h, /Kipindupindu/MoSync/include/Wormhole/MessageProtocol.h, /Kipindupindu/MoSync/include/ma.h, /Kipindupindu/MoSync/include/Wormhole/WebViewMessage.h, /Kipindupindu/MoSync/include/Wormhole/MessageHandler.h, /Kipindupindu/MoSync/include/MAUtil/HashDict.h, /Kipindupindu/MoSync/include/NativeUI/Widget.h, /Kipindupindu/MoSync/include/Wormhole/Libs/PhoneGap/PhoneGapCapture.h, /Kipindupindu/MoSync/include/Wormhole/HybridMoblet.h, /Kipindupindu/MoSync/include/mavsprintf.h, /Kipindupindu/MoSync/include/MAUtil/Connection.h
+/Kipindupindu/Resources/LocalFiles.bin = /Kipindupindu/LocalFiles
+/Kipindupindu/Output/Release/Android/Android/MAHeaders.h = /Kipindupindu/Resources/Resources.lst
+/Kipindupindu/Resources/Resources.lst = /Kipindupindu/Output/Release/Android/Android/resources
+
+[build-properties]
+build.prefs:additional.libraries/Debug = MAUtilD.lib, NativeUID.lib, MAFSD.lib, WormholeD.lib, yajlD.lib, NotificationD.lib
+build.prefs:gcc.warnings/Debug = 10
+build.prefs:memory.stack/Debug = 512
+com.mobilesorcery.sdk.html5.support = true
+privileged.access.token = 7114B29FC4DBF8E623B11E89E62BC10C
+build.prefs:additional.libraries = MAUtil.lib, NativeUI.lib, MAFS.lib, Wormhole.lib, yajl.lib, Notification.lib
+build.prefs:memory.data/Debug = 4096
+build.prefs:memory.data/Release = 4096
+build.prefs:memory.heap/Debug = 3072
+template.id = project.wormhole.web
+build.prefs:memory.stack/Release = 512
+profile.mgr.type = 0
+build.prefs:memory.heap/Release = 3072
+build.prefs:gcc.warnings/Release = 10
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html >
+ <head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function resizeText(multiplier) {
+  if (document.getElementById("big").style.fontSize == "") {
+    document.getElementById("big").style.fontSize = "1.0em";
+  }
+  document.getElementById("big").style.fontSize = parseFloat(document.getElementById("big").style.fontSize) + (multiplier * 0.2) + "em";
+}
+</script>
+ </head> 
+ <body> 
+ <div class="all">
+ <div class="logo">
+
+<img src="images/header.png" style="width:100%; position:; height:100px;"></img>
+
+</div>
+
+ <div style='margin-top:10px;'><b>ATHARI ZA UGONJWA<br> WA KIPINDUPINDU:</b></div>
+<div class="zoom" >
+<img src="images/zoomout.jpg" width="40" height="40" align="right" onClick="resizeText(-1)"></img>
+<img src="images/zoomin.jpg" width="40" height="40" align="right" onClick="resizeText(1)"></img>
+
+</div>
+ </div>
+ <div id="loginScreen" align="center"> 
+	<div class="panel">
+		<table border="0">
+		<p>
+			<tr>
+			<td> 
+			 <a href="index.html" id="login_pop">1.Nyumbani</a>
+           </td>
+			<td>
+			<a href="introduction.html" id="login_pop">2.Utangulizi</a>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<a href="transmission.html" id="login_pop">3.Maambukizi</a>
+            
+			</td>
+			<td>
+			<a href="prevention.html" id="login_pop">4.Kinga</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="effects.html" id="login_pop">5.Hasara</a>
+            
+			</td>
+			<td>
+			<a href="precautions.html" id="login_pop">6.Tahadhari</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="symptoms.html" id="login_pop">7.Dalili</a>
+            
+			</td>
+			<td>
+			<a href="firstaid.html" id="login_pop">8.Huduma</a>
+			</td>
+			
+			</tr>
+			
+			
+		</table>         
+     </div>
+	
+ 
+ <a href="#" class="cancel">&times;</a> </div> 
+ <div id="cover" > </div>
+ 
+ 
+</div>
+<div class="big" id="big"><p>
+ <font size="+3">U</font>gonjwa huu wa kipindupindu huleta madhara makubwa hasa katika jamii ya walioathirika<br>
+ Zifuatazo ni baadhi ya athari ambazo mara nyingi hujitokeza ugonjwa huu ukiingia:
+ <p>
+ <b>1.</b>Hofu miongoni mwa jamii katika sehemu yenye mlipuko wa ugonjwa wa kipindupindu.<p>
+ <img src="images/afraid.jpg" style="width:100%; position:; height:320px;"></img><p>
+ <b>2.</b>Kifo kutokana na ukosefu wa maji na madini mwilini baada ya kuharisha na kutapika sana.<p>
+ <img src="images/dead.jpg" style="width:100%; position:; height:320px;"></img><p>
+ <b>3.</b>Kushuka kwa uchumi kutokana na familia/jamii kuacha shughuli za uzalishaji mali ili 
+ kumuhudumia mgonjwa na kushiriki katika misiba.<p>
+ <img src="images/down.jpg" style="width:100%; position:; height:320px;"></img><p>
+ <b>4.</b>Kuathirika kwa shughuli za uzalishaji katika jamii hasa pale biashara zinapopigwa marufuku<p>
+ <b>5.</b>Serikali hutumia fedha nyingi kwa ajili ya dawa pamoja na vifaa katika kukabiliana 
+ na ugonjwa wa kipindupindu<p>
+ 
+
+ 
+ <div id="loginScreen1" align="center"> 
+ 
+ <a href="#" class="cancel2">&times;</a> </div> 
+ </div>
+ <div class="footer">
+ 
+ <a href="#loginScreen" align="center" class="button">Yaliyomo</a>
+  <a href="#" align="center" class="rudi" >Juu</a>
+ 
+ </div>
+ 
+ </body>
+ </html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html >
+ <head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function resizeText(multiplier) {
+  if (document.getElementById("big").style.fontSize == "") {
+    document.getElementById("big").style.fontSize = "1.0em";
+  }
+  document.getElementById("big").style.fontSize = parseFloat(document.getElementById("big").style.fontSize) + (multiplier * 0.2) + "em";
+}
+</script>
+ </head> 
+ <body> 
+ <div class="all">
+ <div class="logo">
+
+<img src="images/logo.png" style="width:95%; position:; height:100px;"></img>
+
+</div>
+
+ <div style='margin-top:10px;'><b>MAENEO YASABABISHAYO<br> KIPINDUPINDU:</b></div>
+<div class="zoom" >
+<img src="images/zoomout.jpg" width="40" height="40" align="right" onClick="resizeText(-1)"></img>
+<img src="images/zoomin.jpg" width="40" height="40" align="right" onClick="resizeText(1)"></img>
+
+</div>
+ </div>
+ <div id="loginScreen" align="center"> 
+	<div class="panel">
+		<table border="0">
+			<tr>
+			<td> 
+			 <a href="index.html" id="login_pop">1.Nyumbani</a>
+           </td>
+			<td>
+			<a href="introduction.html" id="login_pop">2.Utangulizi</a>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<a href="transmission.html" id="login_pop">3.Maambukizi</a>
+            
+			</td>
+			<td>
+			<a href="prevention.html" id="login_pop">4.Kinga</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="effects.html" id="login_pop">5.Hasara</a>
+            
+			</td>
+			<td>
+			<a href="precautions.html" id="login_pop">6.Tahadhari</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="symptoms.html" id="login_pop">7.Dalili</a>
+            
+			</td>
+			<td>
+			<a href="firstaid.html" id="login_pop">8.Huduma</a>
+			</td>
+			
+			</tr>
+			<tr >
+			<td colspan="2">
+			<a href="area.html" id="login_pop">9.Maeneo Hatarishi </a>
+			</td>
+			</tr>
+			
+		</table>         
+     </div>
+	
+ 
+ <a href="#" class="cancel">&times;</a> </div> 
+ <div id="cover" > </div>
+ 
+ 
+</div>
+<div class="big" id="big"><p>
+ <font size="+3">M</font>azingira yasiyotunzwa vizuri na jamii yanaweza kuchochea magonjwa ya miripuko kama vile kipundupindu<br>
+ Yafuatayo ni baadhi ya maeneo ambayo yanaweza kusababisha ugonjwa wa kipindupindu:
+ <p>
+ <u><b>1.Katika vyanzo vya maji</b></u><p>
+ Kipindupindu hutokea hasa katika nchi pasipo maji safi hasa ambako maji yakunywa na maji ya choo
+ yanaweza kuchanganyika bacteria ya Vibrio cholera hupatikana hasa katika kinyesi na maji ya choo na
+ pia katika maji ya bahari, maziwa na mito kama maji machafu huingizwa katika madimbwi ya maji bila kusafishwa kwanza <p>
+  <img src="images/dd.jpg" style="width:100%; position:; height:320px;"></img><p>
+  
+  <u><b>2.Katika maeneo yanayotupwa taka </b></u><p>
+  Ikiwa maeneo ya kumwagia taka hayatahifadhiwa vizuri inaweza kupelekea kueneo 
+  kwa maradhi ya kipindupindu .maradhi ya kipindupindu husababishwa na asilimia kubwa 
+  ya uchafu unaotupwa katika maeneo ya kutupia taka ambayo hayaja hifadhiwa au maeneo 
+  yasiyo husika (kiholela).wadudu kama Nzi hubeba vimelea vya kipindupindu na kusambaza majumbani<p>
+  <img src="images/taka.jpg" style="width:100%; position:; height:320px;"></img><p>
+  
+ <u><b>3.Biashara za vyakula na vinywaji visivyo hifadhiwa</b></u><p>
+ Baadhi ya wafanya biashara wa vyakula hawana tahadhari  wakati wa kuviandaa au wakati wa mauzo wa vyakula
+ hivyo na kupelekea Nzi au wadudu waliobeba vimelea vya kipindupindu kutua juu ya vyakula hivyo na kumsababishia
+ mlaji wa chakula hicho kupata maradhi ya kipindupindu.<p>
+ Kwa upande wa vinywaji vinatayarishwa bila kuchemsha maji yake au maji safi na kusababisha vimelea kubaki na kumsababishia mnywaji kupata maradhi<p>
+   <img src="images/ch.jpg" style="width:100%; position:; height:320px;"></img><p>
+   
+   <u><b>4.Maji yanayotuama</b></u><p>
+    Hii inasababishwa na kuziba kwa mitaro ya maji taka au kutokua na sehemu maalumu za kuhifadhia maji 
+	hayo na kupelekea uchafu ambao unaweza kubebwa na wadudu au hata watoto wanaocheza karibu na maeneo hayo na kusababisha maambukizi. <p>
+	 <img src="images/vcb.jpg" style="width:100%; position:; height:320px;"></img><p>
+
+ 
+ 
+ <div id="loginScreen1" align="center"> 
+ 
+ <a href="#" class="cancel2">&times;</a> </div> 
+ </div>
+ <div class="footer">
+ 
+ <a href="#loginScreen" align="center" class="button">Yaliyomo</a>
+  <a href="#" align="center" class="rudi" >Juu</a>
+ 
+ </div>
+ 
+ </body>
+ </html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html >
+ <head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function resizeText(multiplier) {
+  if (document.getElementById("big").style.fontSize == "") {
+    document.getElementById("big").style.fontSize = "1.0em";
+  }
+  document.getElementById("big").style.fontSize = parseFloat(document.getElementById("big").style.fontSize) + (multiplier * 0.2) + "em";
+}
+</script>
+ </head> 
+ <body> 
+ <div class="all">
+ <div class="logo">
+<img src="images/header.png" style="width:100%; position:; height:100px;"></img>
+
+</div>
+
+ <div style='margin-top:10px;'><b>KUJILINDA NA MARADHI<br> YA KIPINDUPINDU:</b></div>
+<div class="zoom" >
+<img src="images/zoomout.jpg" width="40" height="40" align="right" onClick="resizeText(-1)"></img>
+<img src="images/zoomin.jpg" width="40" height="40" align="right" onClick="resizeText(1)"></img>
+
+</div>
+ </div>
+ <div id="loginScreen" align="center"> 
+	<div class="panel">
+		<table border="0">
+		<p>
+			<tr>
+			<td> 
+			 <a href="index.html" id="login_pop">1.Nyumbani</a>
+           </td>
+			<td>
+			<a href="introduction.html" id="login_pop">2.Utangulizi</a>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			<a href="transmission.html" id="login_pop">3.Maambukizi</a>
+            
+			</td>
+			<td>
+			<a href="prevention.html" id="login_pop">4.Kinga</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="effects.html" id="login_pop">5.Hasara</a>
+            
+			</td>
+			<td>
+			<a href="precautions.html" id="login_pop">6.Tahadhari</a>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<a href="symptoms.html" id="login_pop">7.Dalili</a>
+            
+			</td>
+			<td>
+			<a href="firstaid.html" id="login_pop">8.Huduma</a>
+			</td>
+			
+			</tr>
+			
+			
+		</table>         
+     </div>
+	
+ 
+ <a href="#" class="cancel">&times;</a> </div> 
+ <div id="cover" > </div>
+ 
+ 
+</div>
+<div class="big" id="big"><p>
+ <font size="+3">K</font>una uwezekano mkubwa mtu akajilinda asipate kipindupindu kama atafuata taratibu
+ zifuatazo:
+ <p>
+ <b>1.</b>Kuweka Mazingira safi na salama.<p>
+  <img src="images/io.jpg" style="width:100%; position:; height:320px;"></img><p>
+ <b>2.</b>Kosha mikono kwa maji yanayotiririka kabla au baada ya kula,baada ya kutoka chooni,kabla ya kumlisha mtoto na baada ya kumsafisha
+  <img src="images/4.png" style="width:100%; position:; height:320px;"></img><p>
+ <b>3.</b>Hakikisha unachemsha maji ya kunywa au kuyatia dawa (waterguard) kabla ya kuyatumia.<p>
+ <img src="images/10.png" style="width:100%; position:; height:320px;"></img><p>
+ <b>4.</b>Hakikisha unahifadhi vizuri chakula chako ili kisifikiwe na nzi<p>
+ <img src="images/55.png" style="width:100%; position:; height:320px;"></img><p>
+ <b>5.</b>Kinyesi au maji ya choo yaliyotumika na mgonjwa wa kipindupindu yanapaswa kuhifadhiwa vizuri ktika mashimo <p>
+ <b>6.</b>Tumia choo kila mara - usiende haja karibu au ndani ya chanzo cha maji.<p>
+ <img src="images/6.png" style="width:100%; position:; height:320px;"></img><p>
+ <p>
+
+ 
+ <div id="loginScreen1" align="center"> 
+ 
+ <a href="#" class="cancel2">&times;</a> </div> 
+ </div>
+ <div class="footer">
+ 
+ <a href="#loginScreen" align="center" class="button">Yaliyomo</a>
+  <a href="#" align="center" class="rudi" >Juu</a>
+ 
+ </div>
+ 
+ </body>
+ </html>

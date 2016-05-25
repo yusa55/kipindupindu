@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "suza.appclub.ukimwi"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>KIPINDUPINDU</name>
+
+    <description>
+        Kipindupindu ni maradhi yanayotapakaa kwa kasi zaidi ikiwa hutofahamu namna ya kujikinga maradhi hayo. <br />Pata maelezo mazuri yanayohusu maradhi haya na upate kuelimika na kuelimisha wengine. 
+    </description>
+
+    <author href="https://suza.ac.tz" email="yusahaha@gmail.com">
+        SUZA APP CLUB 
+    </author>
+
+	<!-- Testing the icons-->
+	<icon src="playicon.png" />
+    <icon src="img/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="img/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="img/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="img/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="img/icon/android/icon-144-xxhdpi.png"  gap:platform="android"    gap:density="xxhdpi" />
+	<icon src="img/icon/android/icon-192-xxxhdpi.png"  gap:platform="android"    gap:density="xxxhdpi" />
+	
+	<!-- testing flash screen -->
+	<gap:splash src="img/splash/android/android_ldpi_portrait.png.png" gap:platform="android" gap:density="ldpi"/>
+    <gap:splash src="img/splash/android/android_mdpi_portrait.png" gap:platform="android" gap:density="mdpi"/>
+    <gap:splash src="img/splash/android/android_hdpi_portrait.png" gap:platform="android" gap:density="hdpi"/>
+    <gap:splash src="img/splash/android/android_xhdpi_portrait.png" gap:platform="android" gap:density="xhdpi"/>
+
+</widget>

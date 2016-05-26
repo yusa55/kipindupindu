@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "suza.appclub.ukimwi"
+        id          = "suza.appclub.kipindupindu"
         versionCode = "10" 
         version     = "1.0.0" >
 
@@ -26,10 +26,5 @@
     <icon src="img/icon/android/icon-144-xxhdpi.png"  gap:platform="android"    gap:density="xxhdpi" />
 	<icon src="img/icon/android/icon-192-xxxhdpi.png"  gap:platform="android"    gap:density="xxxhdpi" />
 	
-	<!-- testing flash screen -->
-	<gap:splash src="img/splash/android/android_ldpi_portrait.png.png" gap:platform="android" gap:density="ldpi"/>
-    <gap:splash src="img/splash/android/android_mdpi_portrait.png" gap:platform="android" gap:density="mdpi"/>
-    <gap:splash src="img/splash/android/android_hdpi_portrait.png" gap:platform="android" gap:density="hdpi"/>
-    <gap:splash src="img/splash/android/android_xhdpi_portrait.png" gap:platform="android" gap:density="xhdpi"/>
 
 </widget>
